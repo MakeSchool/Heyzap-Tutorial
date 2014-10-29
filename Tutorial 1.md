@@ -114,7 +114,7 @@ The ```HZInterstitialAd``` class will show both interstitial ads and video ads, 
 
 However, if you want to force a video ad, you can use the ```HZVideoAd``` class instead. Video ads are best shown only when you expect user sessions to be long. Taking up to 30 seconds away from a 2-5 minute session is a substantial amount of time to ask of users.
 
-If you are forcing a video ad, you need to make sure there is one queued up. This should be done as early as possible in the app's lifecycle, using the command ```[HZVideoAd fetch];``` <!--(HEYZAP STOP TRYING TO MAKE FETCH HAPPEN. IT'S NOT GOING TO HAPPEN.)--> and also every time after a video ad is shown, to allow as much time as possible to download the necessary assets. 
+If you are forcing a video ad, you need to make sure there is one queued up. This should be done as early as possible in the app's lifecycle, using the command ```[HZVideoAd fetch];``` and also every time after a video ad is shown, to allow as much time as possible to download the necessary assets. 
 
 In your ```AppDelegate.m```, after the line where you started the SDK, add the ```fetch``` method call. Here is what it should look like now (with the zeros replaced, of course):
 
