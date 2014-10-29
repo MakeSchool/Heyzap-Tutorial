@@ -140,9 +140,9 @@ One thing to note is that while the advertisements will pause your update loops 
 Best Practices
 =========
 
-In general, accidental clicks will only succeed in annoying your users, not in raising conversion rates. You will only make money if the user decides they want to download the advertised app, so if when a user accidentally clicks on an advertisement that they have no interest in downloading, you have navitaged them away from your game for no reason. 
+In general, accidental clicks will only succeed in annoying your users, not in raising conversion rates. You will only make money if the user decides they want to download the advertised app, so when a user accidentally clicks on an advertisement that they have no interest in downloading, you have navitaged them away from your game for no reason. 
 
-Users are much more likely to click on an ad after a game has ended than before it started, because they have jut finished a task and won't mind as much navigating away from the app. 
+Users are much more likely to click on an ad after a game has ended than before it started, because they have just finished a task and won't mind as much navigating away from the app. 
 
 
 #### When to show ads
