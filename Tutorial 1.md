@@ -137,12 +137,14 @@ A video ad will only show if there is one ready to be played, otherwise, things 
 
 One thing to note is that while the advertisements will pause your update loops and other scheduled code, they don't pause the background music or sounds being played with ```OALSimpleAudio```, so that is something you need to do manually for video advertisements. Before you call the ```show``` method, pause the background music. You can put the code to unpause the music right after you call the ```show``` method. Make sure you don't turn music on if it was not playing before the video ad though!
 
-Best Practices
+Best Practices for Cocos2D
 =========
 
 In general, accidental clicks will only succeed in annoying your users, not in raising conversion rates. You will only make money if the user decides they want to download the advertised app, so when a user accidentally clicks on an advertisement that they have no interest in downloading, you have navitaged them away from your game for no reason. 
 
 Users are much more likely to click on an ad after a game has ended than before it started, because they have just finished a task and won't mind as much navigating away from the app. 
+
+The examples below assume you are using Cocos2D, but also parallel Spritekit closely. ```replaceScene``` and ```presentScene``` are effectively the same thing. 
 
 
 #### When to show ads
