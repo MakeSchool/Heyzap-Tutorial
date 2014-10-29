@@ -27,7 +27,7 @@ If your app is already in the App Store, you can find your Apple ID with the fol
 3. Click on the icon of the application you want to add.
 4. The Apple ID should be listed on the page.
 
-*--------------------Can you add a screenshot here of where to find the Apple ID here?-------------------*
+	![Apple ID](https://s3.amazonaws.com/mgwu-misc/Heyzap+Tutorial/AppleID.png)
 
 Once you have found your Apple ID, [claim your app here](https://developers.heyzap.com/dashboard/games/add_game).
 
@@ -45,7 +45,7 @@ You can do this even if your app has not yet been published to the App Store, by
 4. Fill out the required information and hit "Create."
 5. The Apple ID will be listed on the next page. 
 
-*--------------------Can you add a screenshot here of where to find the Apple ID here?-------------------*
+	![Apple ID](https://s3.amazonaws.com/mgwu-misc/Heyzap+Tutorial/AppleID.png)
 
 Once you have your Apple ID, [claim your app here](https://developers.heyzap.com/dashboard/games/add_game).
 
@@ -196,7 +196,7 @@ Now, add the following before where you restart the game:
 
 ####How often to show ads
 
-When to show the ad is best determined by analysing analytics. If your game is a fast paced arcade game, with short average sessions, feel free to show ads around once every minute or two. If you have longer, puzzle-based, strategy games, you have more time to monetize a user, so show ads less often. You should also give them more time to play the game before showing the ad, so with long sessions, show the ad late in the experience.
+When to show the ad is best determined by analyzing analytics. If your game is a fast paced arcade game, with short average sessions, feel free to show ads around once every minute or two. If you have longer, puzzle-based, strategy games, you have more time to monetize a user, so show ads less often. You should also give them more time to play the game before showing the ad, so with long sessions, show the ad late in the experience.
 
 You want to minimize the disruption to the user experience, so the user continues to visit your app and does not get too annoyed.
 
@@ -234,7 +234,3 @@ Once you are ready to show the ad, you can show and fetch it with the same metho
 If no ad has been fetched succesfully, no ad will show. That is why we check to make sure that something is available before displaying the offer (since it would not make sense to offer an incentive when there is no ad to show). 
 
 Once you have seen a functioning Heyzap ad in your app, you are ready to submit to the App Store!
-
-<!--Code Examples
-====================
-Here are a few different code examples on how to effectively integrate this into your game.--> 
