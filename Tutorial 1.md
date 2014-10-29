@@ -27,7 +27,7 @@ If your app is already in the App Store, you can find your Apple ID with the fol
 3. Click on the icon of the application you want to add.
 4. The Apple ID should be listed on the page.
 
-*--------------------Can you add a screenshot here?-------------------*
+*--------------------Can you add a screenshot here of where to find the Apple ID here?-------------------*
 
 Once you have found your Apple ID, [claim your app here](https://developers.heyzap.com/dashboard/games/add_game).
 
@@ -44,6 +44,8 @@ You can do this even if your app has not yet been published to the App Store, by
 
 4. Fill out the required information and hit "Create."
 5. The Apple ID will be listed on the next page. 
+
+*--------------------Can you add a screenshot here of where to find the Apple ID here?-------------------*
 
 Once you have your Apple ID, [claim your app here](https://developers.heyzap.com/dashboard/games/add_game).
 
