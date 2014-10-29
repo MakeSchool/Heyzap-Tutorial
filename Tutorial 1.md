@@ -2,9 +2,9 @@ Introducting Heyzap
 ====================
 Heyzap is a simple way to monetize your app by adding advertisements. After downloading their SDK and adding the framework to your application, it is easy to show the user ads upon reaching a new level or getting a game over.
 
-You will get money for every time one of the ads converts to an installation. If someone playing your game clicks on one of the advertisements and decides to install that app, you'll make money. 
+Heyzap pays you each time an ad converts to an installation. If someone playing your game installs an app from an advertisement then you will make money.
 
-You can also offer rewarded video ads -- ads that offer the user an in-game incentive to watch an advertisement. For example, you could offer a user 100 coins of in-game currency if they watch a 15 second ad. 
+You can also show rewarded video ads -- ads that offer the user an in-game incentive to watch an advertisement. For example, you could offer a user 100 coins of in-game currency if they watch a 15 second ad.
 
 Making an Account
 ====================
@@ -12,7 +12,7 @@ First things first, you'll need to [make an account with Heyzap](https://www.hey
 
 ![Make an Account](https://s3.amazonaws.com/mgwu-misc/Heyzap+Tutorial/MakeAnAccount.png)
 
-You don't need to include a URL to your game.
+You do not need to include a URL to your game.
 
 Claiming your App
 ====================
