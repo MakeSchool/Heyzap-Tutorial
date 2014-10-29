@@ -1,4 +1,4 @@
-Introducting Heyzap
+Introducing Heyzap
 ====================
 Heyzap is a simple way to monetize your app by adding advertisements. After downloading their SDK and adding the framework to your application, it is easy to show the user ads upon reaching a new level or getting a game over.
 
@@ -8,7 +8,7 @@ You can also show rewarded video ads -- ads that offer the user an in-game incen
 
 Making an Account
 ====================
-First things first, you'll need to [make an account with Heyzap](https://www.heyzap.com/register?next=https://developers.heyzap.com/dashboard). Sign up with an account to "Monatize apps."
+First things first, you'll need to [make an account with Heyzap](https://www.heyzap.com/register?next=https://developers.heyzap.com/dashboard). Sign up with an account to "Monetize apps."
 
 ![Make an Account](https://s3.amazonaws.com/mgwu-misc/Heyzap+Tutorial/MakeAnAccount.png)
 
@@ -75,7 +75,7 @@ Finally, navigate to the ```AppDelegate.m``` file, and add the following semanti
 
 Initializing the SDK
 ====================
-In the ```AppDelegate.m``` file, add the folling import line:
+In the ```AppDelegate.m``` file, add the following import line:
 
 	#import <HeyzapAds/HeyzapAds.h>
 	
@@ -105,7 +105,7 @@ Now, all you have to do to trigger the ad is the line:
 
 	[HZInterstitialAd show];
 	
-That's it! The ad is automatically fetched from their server, and gameplay will resume as normal once the user exits out of the advertisement. It will take approximetly 5 minutes and 10 impressions before it moves out of "test mode" and beings to display real ads.
+That's it! The ad is automatically fetched from their server, and gameplay will resume as normal once the user exits out of the advertisement. It will take approximately 5 minutes and 10 impressions before it moves out of "test mode" and beings to display real ads.
 	
 
 Displaying Video Ads
@@ -140,11 +140,11 @@ One thing to note is that while the advertisements will pause your update loops 
 Best Practices for Cocos2D
 =========
 
-In general, accidental clicks will only succeed in annoying your users, not in raising conversion rates. You will only make money if the user decides they want to download the advertised app, so when a user accidentally clicks on an advertisement that they have no interest in downloading, you have navitaged them away from your game for no reason. 
+In general, accidental clicks will only succeed in annoying your users, not in raising conversion rates. You will only make money if the user decides they want to download the advertised app, so when a user accidentally clicks on an advertisement that they have no interest in downloading, you have navigated them away from your game for no reason. 
 
 Users are much more likely to click on an ad after a game has ended than before it started, because they have just finished a task and won't mind as much navigating away from the app. 
 
-The examples below assume you are using Cocos2D, but also parallel Spritekit closely. ```replaceScene``` and ```presentScene``` are effectively the same thing. 
+The examples below assume you are using Cocos2D, but also parallel SpriteKit closely. ```replaceScene``` and ```presentScene``` are effectively the same thing. 
 
 
 #### When to show ads
@@ -233,6 +233,6 @@ Once you are ready to show the ad, you can show and fetch it with the same metho
 		}
 	}
 	
-If no ad has been fetched succesfully, no ad will show. That is why we check to make sure that something is available before displaying the offer (since it would not make sense to offer an incentive when there is no ad to show). 
+If no ad has been fetched successfully, no ad will show. That is why we check to make sure that something is available before displaying the offer (since it would not make sense to offer an incentive when there is no ad to show). 
 
 Once you have seen a functioning Heyzap ad in your app, you are ready to submit to the App Store!
