@@ -160,10 +160,10 @@ If the user presses the **Restart** button before the ad appears, then the ```se
 
 The automatic removal of scheduled blocks is important, because we don't want an ad showing up in the middle of a game. However, that also means that if the user is quick, we wouldn't be showing them any ads. In this case, we need to create a boolean that checks if we have displayed an ad. If they press the restart button before an ad is displayed, we will display the ad before starting the new game. Initialize a boolean instance variable ```BOOL adShown;```. Add the following to the ```scheduleBlock```:
 
-	adShown = FALSE;
+	adShown = NO;
 	[self scheduleBlock:^(CCTimer *timer) {
     	[HZInterstitialAd show];
-    	adShown = TRUE;
+    	adShown = YES;
     } delay:2.0];
     
 Then, just before you call ```replaceScene``` add this to check if you need to show an ad:
@@ -179,12 +179,12 @@ We still need to initialize ```BOOL adShown;```. This time, we first create a ne
 
 	-(void) showAd {
 		[HZInterstitialAd];
-		adShown = TRUE;
+		adShown = YES;
 	}
 	
 Call that method in place of the schedule block that we used above using:
 
-	adShown = FALSE;
+	adShown = NO;
 	[self schedule:@selector(showAd) interval:2.0];
 	
 Now, add the following before where you restart the game:
